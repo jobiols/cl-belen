@@ -49,12 +49,11 @@
 
     # port where odoo starts serving pages
     'port': '8069',
-    # example repos version 1
     'repos': [
         {'usr': 'jobiols', 'repo': 'cl-belen', 'branch': '12.0'},
+        {'usr': 'xalachi', 'repo': 'fecr', 'branch': '12.0'},
     ],
 
-    # example images version 1
     'docker': [
         {'name': 'odoo', 'usr': 'jobiols', 'img': 'odoo-ent', 'ver': '12.0e'},
         {'name': 'postgres', 'usr': 'postgres', 'ver': '11.1-alpine'},
