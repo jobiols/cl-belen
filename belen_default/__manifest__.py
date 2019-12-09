@@ -26,13 +26,6 @@
     'author': 'jeo Software',
     'depends': [
         # basic applications
-        'sale_management',
-        'account_invoicing',
-        'purchase',
-
-        # minimum modules for argentinian localizacion + utilities + fixes
-        # 'standard_depends',
-
     ],
     'data': [
     ],
@@ -40,7 +33,6 @@
     ],
     'installable': True,
     'application': True,
-    'auto_install': False,
     'images': [],
 
     #
@@ -56,7 +48,7 @@
 
     'docker': [
         {'name': 'odoo', 'usr': 'jobiols', 'img': 'odoo-ent', 'ver': '12.0e'},
-        {'name': 'postgres', 'usr': 'postgres', 'ver': '11.1-alpine'},
+        {'name': 'postgres', 'usr': 'postgres', 'ver': '10.1-alpine'},
         {'name': 'nginx', 'usr': 'nginx', 'ver': 'latest'},
     ],
 
