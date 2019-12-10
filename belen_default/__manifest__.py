@@ -44,6 +44,7 @@
     'repos': [
         {'usr': 'jobiols', 'repo': 'cl-belen', 'branch': '12.0'},
         {'usr': 'xalachi', 'repo': 'fecr', 'branch': '12.0'},
+        {'usr': 'oca', 'repo': 'server-tools', 'branch': '12.0'},
     ],
 
     'docker': [
