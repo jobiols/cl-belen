@@ -25,7 +25,8 @@
     'summary': 'Customization for Grupo Belen',
     'author': 'jeo Software',
     'depends': [
-        # basic applications
+        'fecr',
+        'auto_backup',  # poner el backup en: /var/odoo/backups/
     ],
     'data': [
     ],
